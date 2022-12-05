@@ -1,0 +1,19 @@
+https://docs.aws.amazon.com/lambda/latest/dg/images-test.html
+https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-python/function
+
+
+
+(awslambdaric-forked) Cevhers-MacBook-Pro:aws-lambda-python-runtime-interface-client cevherdogan$ dil
+REPOSITORY                         TAG                                IMAGE ID       CREATED        SIZE
+awslambdaric-forked                devtest-v1.0                       0fa02ac6fcac   19 hours ago   855MB
+python-alpine-3.14                 3.9                                29d7285157aa   20 hours ago   62.1MB
+python-alpine-3.14                 3.8                                d0ffc63217b1   20 hours ago   58.4MB
+python-alpine-3.14                 3.7                                f601591b33ec   20 hours ago   57.2MB
+python-alpine-3.13                 3.9                                763c7cd76614   20 hours ago   56.3MB
+python-alpine-3.13                 3.8                                051ed5830c20   20 hours ago   54.3MB
+python-alpine-3.13                 3.7                                7a96419ce293   20 hours ago   53.1MB
+codebuild-agent                    latest                             368421594497   20 hours ago   758MB
+cevherdogan/53                     alpine-cpp-pathping-devtest-v1.0   40b37739cb6c   24 hours ago   297MB
+anchore/docker-desktop-extension   0.5.1                              399670550353   6 weeks ago    915MB
+amazon/aws-codebuild-local         latest                             9a0a12cd57c4   2 months ago   873MB
+

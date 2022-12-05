@@ -1,0 +1,44 @@
+Have not yet added another function to test with - hello world worked perfectly.
+
+Next may be 
+
+lambda_function.py
+lambda_function.test.py
+
+
+source  ~/.pvenvs/awslambdaric-forked/bin/activate
+
+make init build
+
+make test
+make test-integ
+make test-smoke
+
+export DOCKERHUB_USERNAME=cevherdogan
+export DOCKERHUB_PASSWORD=
+
+open https://docs.aws.amazon.com/lambda/latest/dg/runtimes-api.html
+
+curl "http://${AWS_LAMBDA_RUNTIME_API}/2018-06-01/runtime/invocation/next"
+
+https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-python
+
+
+docker run -p 9000:8080 your-image
+curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
+
+
+
+docker: Error response from daemon: failed to create shim task: OCI runtime create failed: 
+runc create failed: unable to start container process: exec: "~/.aws-lambda-rie/aws-lambda-rie": stat ~/.aws-lambda-rie/aws-lambda-rie: no such file or directory: unknown.
+
+aws_access_key_id = 
+aws_secret_access_key = 
+
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export AWS_REGION=us-east-1
+
+export AWS_LAMBDA_FUNCTION_VERSION=
+export AWS_LAMBDA_FUNCTION_NAME=
+export AWS_LAMBDA_FUNCTION_MEMORY_SIZE=
